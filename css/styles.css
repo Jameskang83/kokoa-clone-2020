@@ -17,6 +17,10 @@ body {
     /* height: 1000vh; */
 }
 
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
+
 .welcome-header {
     margin: 70px 0px;
     text-align: center;
@@ -75,3 +79,4 @@ body {
     color: inherit;
     font-size: 13px;
 }
+
