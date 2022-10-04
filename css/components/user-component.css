@@ -17,6 +17,13 @@
     margin-right: 20px;
 }
 
+.user-component__avatar-chat {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
 .user-component__title {
     font-weight: 600;
     font-size: 18px;

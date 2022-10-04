@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -26,77 +27,67 @@
     </div>
     
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-comment-medical fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span>
+                <span class="nav__dot-cog"></span>
+                <i class="fas fa-cog fa-lg"></i>
+            </span>
         </div>
     </header>
    
-    <main class="main-screen">
-    <!-- Chat list -->
-        <!-- Spider Man  -->
+    <main class="main-screen more-screen">
+        <!-- Iron man -->
         <div class="user-component">
             <div class="user-component__column">
-                <img src="css/screens/james-photo.jpg" 
-                class="user-component__avatar-chat" />
+                <img src="css/screens/james-photo.jpg" class="user-component__avatar user-component__avatar--xl" />
                 <div class="user-component__text">
-                    <h4 class="user-component__title">Underoos - Spider boy</h4>
+                    <h4 class="user-component__title">Tony Stark</h4>
                     <h6 class="user-component__subtitle">
-                        Help!!!! Tony </h6>
+                        + 000-0000-1234</h6>
                 </div>
             </div>
             <div class="user-component__column">
-                <span class="user-component__time">19:59</span>
-                <div class="badge">4</div>
+                <i class="far fa-comment-alt fa-2x"></i>
             </div>
         </div>
-        
-        <!-- Thor -->
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="css/screens/james-photo.jpg" 
-                class="user-component__avatar-chat" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Point Break - Thor</h4>
-                    <h6 class="user-component__subtitle">
-                        <i class="far fa-grin-tongue"></i>
-                        I have to kick your ass 
-                        
-                    </h6>
+
+        <!-- icon-row -->
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="far fa-envelope"></i>
+                <span>Mail</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-calendar-alt"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-smile-wink"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-palette"></i>
+                <span>Themes</span>
+            </div>
+        </div>
+
+        <!-- More suggestions -->
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Kakao Story</span>
                 </div>
             </div>
-            <div class="user-component__column">
-                <span class="user-component__time">19:00</span>
-                <div class="badge">1</div>
-            </div>
         </div>
-
-        <!-- Hulk -->
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="css/screens/james-photo.jpg" 
-                class="user-component__avatar-chat" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Jolly Green - Hulk</h4>
-                    <h6 class="user-component__subtitle">
-                        <i class="far fa-angry"></i>
-                        <i class="far fa-angry"></i>
-                    </h6>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">Yesterday</span>
-                <!-- <div class="badge">1</div> -->
-            </div>
-        </div>
-
-
     </main>
 
-    <!-- navication -->
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
@@ -107,7 +98,7 @@
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">5</span>
-                    <i class="fas fa-comment-alt fa-2x"></i>                
+                    <i class="far fa-comment-alt fa-2x"></i>                
                 </a>
             </li>
             <li class="nav__btn">
@@ -127,6 +118,9 @@
     <script src="https://kit.fontawesome.com/8f7b4671b2.js" crossorigin="anonymous"></script>       
 </body>
 </html>
+
+
+
 
 
 
