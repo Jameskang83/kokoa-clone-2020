@@ -39,3 +39,20 @@
     font-size: 30px;
     color: white;
 }
+
+.more-suggestions__icon-store {
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-store i {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
