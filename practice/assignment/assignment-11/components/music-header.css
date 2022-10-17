@@ -1,0 +1,70 @@
+
+header {
+    height: 350px;
+}
+
+.music-info {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.music-info__cover {
+    display: block;
+    width: 260px;   
+}
+
+.music-info__image {
+    width: 95px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    box-shadow: tomato 0px 5px 30px;
+
+}
+
+.music-info__cover h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.music-info__cover h3 {
+    font-size: 20px;
+    opacity: 0.5;
+    margin-bottom: 35px;
+}
+
+.music-info__btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.music-info__btn-shuffle {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px 10px;
+    display: block;
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+}
+
+.music-info__btn-heart {
+    display: block;
+    width: 120px;
+    height: 45px;
+    padding: 15px 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.music-info__btn-heart i{
+    color: tomato;
+    margin-right: 10px;
+}
+

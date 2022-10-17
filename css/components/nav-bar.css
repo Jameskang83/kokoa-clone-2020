@@ -4,10 +4,14 @@
     position: fixed;
     bottom: 0px;
     width: 100%;
+    /* background-color: rgba(216, 165, 255, 0.693); */
     background-color: #f9f9fa;
     padding: 20px 40px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 2px solid rgb(255, 38, 0, 0.5);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: rgba(214, 3, 3, 0.3) 0px 0px 0px 3px;
 }
 
 .nav__list {

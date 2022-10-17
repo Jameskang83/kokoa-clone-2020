@@ -3,9 +3,10 @@
     display: flex;
     justify-content: space-between;
     padding: 5px 3px;
-    /* position: fixed;
-    width: 100%;
-    box-sizing: border-box; */
+    /* position: fixed; */
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+
 } 
 
 .status-bar__column:first-child span {
@@ -23,8 +24,30 @@
     align-items: center;
 }
 
-.status-bar__column .fa-battery-half{
+@keyframes battery-charging {
+    0% { content: "\f244"; }
+    20% { content: "\f243"; }
+    40% { content: "\f242"; }
+    60% { content: "\f241"; }
+    80% { content: "\f240"; }
+  }
+  .fa-battery-empty:before {
+    content: "\f244";
+    animation: 2s battery-charging infinite;
+  }
+
+.status-bar__column .fa-battery-empty{
     margin: 0px 5px;
+}
+
+@keyframes boltAnimation {
+    0% {}
+    50%{color: tomato;}
+    100%{}
+}
+
+.fa-bolt {
+    animation: 1.5s boltAnimation ease-in-out infinite;
 }
 
 .status-bar__column-time {

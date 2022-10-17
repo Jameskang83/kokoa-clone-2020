@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 11</title>
+    <link rel="stylesheet" href="style.css">
+<!-- 
+1. 완벽히 따라할 필요는 없습니다.
+2. 좌측 하단의 컨트롤 박스는 다른 요소들과 다르게 독립적입니다.
+    -노래 리스트가 height를 초과해도, 컨트롤 박스의 위치에 영향을 주지 않습니다.
+    -position을 적절히 활용하세요.
+3. 우측 노래 진행 bar
+    -해당 파트는 이미 재생된 부분, 현재 재생 위치, 전체 재생 길이 혹은 남은 부분 이렇게 3개의 요소로 나눌 수 있습니다.
+    -position을 적절히 활용하세요.
+ -->
+
+</head>
+<body>
+    <main>
+        <section class="music">
+            <nav>
+                <i class="fas fa-arrow-left fa-lg"></i>
+                <i class="fas fa-search fa-lg"></i>
+            </nav>
+            <header>
+                <div class="music-info">
+                    <div class="music-info__cover">
+                        <img src="img/music-img3.png"  class="music-info__image" />
+                        <h1>Taylor Swift</h1>
+                        <h3>Country music, Hop</h3>
+                        <div class="music-info__btn">
+                            <span class="music-info__btn-shuffle">Shuffle</span>
+                            <span class="music-info__btn-heart">
+                                <i class="fas fa-heart"></i>2022
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <ul class="music-list">
+                <!-- 1 -->
+                <li class="music-list__song">
+                    <div class="music-list__cover">
+                        <img src="img/music-img4.png"  class="music-list__image" />
+                        <div class="music-list__data">
+                            <h5>TaylorSwift</h5>
+                            <h4>EVERMORE</h4>
+                        </div>
+                    </div>
+                <i class="fas fa-ellipsis-v fa-lg"></i>
+                </li>
+                <!-- 2 -->
+                <li class="music-list__song">
+                    <div class="music-list__cover">
+                        <img src="img/music-img2.png"  class="music-list__image" />
+                        <div class="music-list__data">
+                            <h5>TaylorSwift</h5>
+                            <h4>CAROLINA</h4>
+                        </div>
+                    </div>
+                <i class="fas fa-ellipsis-v fa-lg"></i>
+                </li>
+                <!-- 3 -->
+                <li class="music-list__song">
+                    <div class="music-list__cover">
+                        <img src="img/music-img1.png"  class="music-list__image" />
+                        <div class="music-list__data">
+                            <h5>TaylorSwift</h5>
+                            <h4>LOVER</h4>
+                        </div>
+                    </div>
+                <i class="fas fa-ellipsis-v fa-lg"></i>
+                </li>
+                <!-- 4 -->
+                <li class="music-list__song">
+                    <div class="music-list__cover">
+                        <img src="img/music-img3.png"  class="music-list__image" />
+                        <div class="music-list__data">
+                            <h5>TaylorSwift</h5>
+                            <h4>Shake It Off</h4>
+                        </div>
+                    </div>
+                <i class="fas fa-ellipsis-v fa-lg"></i>
+                </li>
+                <!-- 5 -->
+                <li class="music-list__song">
+                    <div class="music-list__cover">
+                        <img src="img/music-img5.png"  class="music-list__image" />
+                        <div class="music-list__data">
+                            <h5>TaylorSwift</h5>
+                            <h4>SPEAK NOW</h4>
+                        </div>
+                    </div>
+                <i class="fas fa-ellipsis-v fa-lg"></i>
+                </li>
+
+            </ul>
+            <div class="music-bar">
+                <div class="music-bar__control">
+                    <div class="music-bar__title">
+                        <h5>Tayler Swift</h5>
+                        <h4>LOVER</h4>
+                    </div>
+                    <div class="music-bar__btn">
+                        <i class="fas fa-caret-left fa-2x"></i>
+                        <i class="fas fa-pause fa-lg"></i>
+                        <i class="fas fa-caret-right fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="play">
+            <nav>
+                <i class="fas fa-arrow-left fa-lg"></i>
+                <i class="fas fa-ellipsis-v fa-lg"></i>
+            </nav>
+            <div class="play-cover">
+                <img src="img/music-img1.png"  class="play-cover__image" />
+            </div>
+            <h1>LOVER</h1>
+            <h3>Taylor Swift</h3>
+            <div class="play-status">
+                <div class="play-status__time">
+                    <span>1:56</span>
+                    <span>4:54</span>
+                </div>
+                <div class="play-staus__range"> 
+                    <input type="range" min="0" max="11" value="2" class="play-slider">   
+                </div>
+            </div>
+            <div class="play-control">
+                <i class="fas fa-infinity fa-lg"></i>
+                <i class="fas fa-step-backward fa-2x"></i>
+                <i class="fas fa-play-circle fa-4x"></i>
+                <i class="fas fa-step-forward fa-2x"></i>
+                <i class="fas fa-random fa-lg"></i>
+            </div>
+
+
+        </section>
+
+    </main>
+    <script src="https://kit.fontawesome.com/8f7b4671b2.js" crossorigin="anonymous"></script>
+</body>
+</html>

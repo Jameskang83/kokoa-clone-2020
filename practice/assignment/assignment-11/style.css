@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+@import "components/reset.css";
+
+/* Music */
+@import "components/music-header.css";
+@import "components/music-list.css";
+
+/* Play */
+@import "components/play.css";
+
+* {
+    box-sizing: border-box; 
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    width: 370px;
+    height: auto;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: inset 1px 2px 20px #e4e4e4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    align-items: center;
+}
+
+
+
